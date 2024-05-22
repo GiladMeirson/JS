@@ -1,0 +1,5 @@
+Class ex dynamic html
+
+1) Wire your function that will run in the onload event
+2) Write a function - which returns an html string of an 8X8 black and white chessboard.
+ Or alternatively, directly in this function, string the string to a ph element

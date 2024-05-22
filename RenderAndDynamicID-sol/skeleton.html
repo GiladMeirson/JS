@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-ex2</title>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+
+    <style>
+        .card{
+            border: 1px solid black;
+            width: 200px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+        }
+        #ph{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+        }
+
+        #modalPH{
+            position: absolute;
+            font-size: 25px;
+            width: 35vw;
+            height: 35vh;
+            top: 32.5vh;
+            left: 32.5vw;
+            background-color: wheat;
+            border: 2px black solid;
+            text-align: center;
+            padding: 25px;
+            display: none;
+
+        }
+    </style>
+</head>
+<body onload="init()">
+    <div id="ph">
+
+    </div>
+
+
+    <div id="modalPH">
+
+    </div>
+</body>
+</html>

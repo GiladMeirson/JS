@@ -1,0 +1,8 @@
+In the exercise before you on the HTML page, a script is wired to the data of technological products.
+1) Wire in the onLoad event a function that will render all the products from the JSON array
+2) The information must be rendered inside the DIV with ID PH, each product you render will be inside a DIV with class card (already designed for you)
+3) The renderer must have the name of the product, the brand and the price, in addition the renderer has 2 More info buttons and a buy button
+4) Write a function for buying a product that executes an alert with the following message You bought the product and add the name of the product. (Think well how to identify which product the user clicked on and how to pass that to the function.)
+5) Note that each object in JSON has an attribute called specs contains an object with data, (note that each one has different attributes in specs). Prepare a function that renders the specification data into modalPH.
+6) Wire these functions to buttons dynamically.
+7) Wired in the onLoad event listener when clicking on modalPH it changes to display none.
